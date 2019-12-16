@@ -2543,9 +2543,6 @@
       <Measure>
         <startRepeat/>
         <voice>
-          <KeySig>
-            <accidental>0</accidental>
-            </KeySig>
           <Harmony>
             <root>16</root>
             <name>m</name>
@@ -2904,7 +2901,7 @@
               </Volta>
             <next>
               <location>
-                <fractions>1/1</fractions>
+                <measures>1</measures>
                 </location>
               </next>
             </Spanner>
@@ -2965,13 +2962,29 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Spanner type="Volta">
             <prev>
               <location>
-                <fractions>-1/1</fractions>
+                <measures>-1</measures>
                 </location>
               </prev>
             </Spanner>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
           </voice>
         </Measure>
       </Staff>
@@ -5052,9 +5065,6 @@
         </Measure>
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>0</accidental>
-            </KeySig>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -5400,6 +5410,22 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
           </voice>
         </Measure>
       </Staff>
@@ -7219,9 +7245,6 @@
         </Measure>
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>0</accidental>
-            </KeySig>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
@@ -7567,6 +7590,22 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
           </voice>
         </Measure>
       </Staff>
